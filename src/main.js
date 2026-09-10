@@ -82,7 +82,7 @@ function analyzeSalesData(data, options) {
 
     const sellerStats = data.sellers.map(seller => ({
          id: seller.id,
-            name: seller.first_name + '' + seller.last_name,
+            name: seller.first_name + ' ' + seller.last_name,
             revenue: 0,
             profit: 0,
             sales_count: 0,
